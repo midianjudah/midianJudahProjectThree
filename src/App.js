@@ -5,10 +5,12 @@ import axios from 'axios';
 import { useEffect, useState } from 'react';
 // Import header
 import Header from './Header';
-// Import form
+// Import dropdown
+// Import Footer
+import Footer from './Footer';
 
 function App() {
-  // console.log('App has rendered');
+   console.log('App has rendered');
 
   // useState FIRST
   const [ randomArtist, setRandomArtist ] = useState([]);
