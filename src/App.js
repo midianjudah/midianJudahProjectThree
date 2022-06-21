@@ -2,14 +2,14 @@ import './App.css';
 // Impot AXIOS package
 import axios from 'axios';
 // Import useEffect & useState Hook
-import { Component, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 // Import header
 import Header from './Header';
 // Import Form
 import Form from './Form';
 // Import Footer
 import Footer from './Footer.js';
-import { render } from '@testing-library/react';
+
 
 function App() {
   console.log('App has rendered');
@@ -22,7 +22,7 @@ function App() {
 
   //Here we impliment AXIOS and the useEffect
   useEffect(() => {
-    if (selectArtist != '') {
+    if (selectArtist !== '') {
       axios({
         url: `http://ws.audioscrobbler.com/2.0/`,
         method: `GET`,

@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
+
 
 const Form = (props) => {
 
@@ -53,7 +55,7 @@ const Form = (props) => {
                 {
                     props.artistData.map((artist)=>{
                         return(
-                            <p key={artist.mbid}>{artist.name}</p>
+                            <p key={uuidv4()}>{artist.name}</p>
                         )
                     })
                 }
