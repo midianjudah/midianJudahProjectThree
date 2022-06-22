@@ -26,7 +26,6 @@ function App() {
         }
       }).then(jsonData => {
         setArtistData(jsonData.data.similarartists.artist);
-        console.log(jsonData.data.similarartists.artist)
       })
     }
   }, [selectArtist]);
@@ -47,5 +46,3 @@ function App() {
 }
 
 export default App;
-
-//LIVE SITE: https://fantastic-crostata-ac3eb5.netlify.app/
