@@ -1,22 +1,12 @@
 import './App.css';
-// Impot AXIOS package
 import axios from 'axios';
-// Import useEffect & useState Hook
 import { useEffect, useState } from 'react';
-// Import header
 import Header from './Header';
-// Import Form
 import Form from './Form';
-// Import Footer
 import Footer from './Footer.js';
 
-
 function App() {
-  console.log('App has rendered');
-
-  //useState FIRST
-  //const [ randomArtist, setRandomArtist ] = useState([]);
-
+  
   const [selectArtist, setSelectArtist] = useState('');
   const [artistData, setArtistData] = useState([]);
 
@@ -24,7 +14,7 @@ function App() {
   useEffect(() => {
     if (selectArtist !== '') {
       axios({
-        url: `http://ws.audioscrobbler.com/2.0/`,
+        url: `https://ws.audioscrobbler.com/2.0/`,
         method: `GET`,
         dataResponse: `json`,
         params: {
@@ -56,5 +46,6 @@ function App() {
   );
 }
 
-
 export default App;
+
+//LIVE SITE: https://fantastic-crostata-ac3eb5.netlify.app/

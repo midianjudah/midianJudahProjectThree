@@ -27,22 +27,39 @@ const Form = (props) => {
                 >
                     <option value="placeholder" disabled>Select an artist</option>
                     <option value="B. B. King">B. B. King</option>
+                    <option value="Muddy Waters">Muddy Waters</option>
+
                     <option value="Chuck Berry">Chuck Berry</option>
                     <option value="Cream">Cream</option>
                     <option value="Pink Floyd">Pink Floyd</option>
-                    <option value="Muddy Waters">Muddy Waters</option>
+                    <option value="Elvis Presley">Elvis Presley</option>
+                    <option value="The Beatles">The Beatles</option>
+                    <option value="Radiohead">Radiohead</option>
+
+                    <option value="Metallica">Metallica</option>
+                    <option value="Iron Maiden">Iron Maiden</option>
+                    <option value="Black Sabbath">Black Sabbath</option>
+                    <option value="Van Halen">Van Halen</option>
+                    
                     <option value="Drake">Drake</option>
                     <option value="Kanye West">Kanye West</option>
                     <option value="nas">Nas</option>
+
                     <option value="Merle Haggard">Merle Haggard</option>
                     <option value="kraftwerk">KraftWerk</option>
+
                     <option value="bob dylan">Bob Dylan</option>
+
                     <option value="miles davis">Miles Davis</option>
                     <option value="Ella Fitzgerald">Ella Fitzgerald</option>
+
                     <option value="Madonna">Madonna</option>
                     <option value="Michael Jackson">Michael Jackson</option>
+
                     <option value="Stevie Wonder">Stevie Wonder</option>
+
                     <option value="Bob Marley">Bob Marley</option>
+
                     <option value="Netsky">Netsky</option>
                     <option value="Bladerunner">Bladerunner</option>
                     <option value="Deadmou5">Deadmau5</option>
