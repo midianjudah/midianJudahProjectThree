@@ -40,15 +40,20 @@ const Form = (props) => {
                     <option value="Iron Maiden">Iron Maiden</option>
                     <option value="Black Sabbath">Black Sabbath</option>
                     <option value="Van Halen">Van Halen</option>
+                    <option value="Nirvana">Nirvana</option>
+                    <option value="GG Allin">GG Allin</option>
                     
                     <option value="Drake">Drake</option>
                     <option value="Kanye West">Kanye West</option>
                     <option value="nas">Nas</option>
+                    <option value="2Pac">2Pac</option>
 
                     <option value="Merle Haggard">Merle Haggard</option>
                     <option value="kraftwerk">KraftWerk</option>
 
                     <option value="bob dylan">Bob Dylan</option>
+                    <option value="Johnny Cash">Johnny Cash</option>
+                    
 
                     <option value="miles davis">Miles Davis</option>
                     <option value="Ella Fitzgerald">Ella Fitzgerald</option>
